@@ -39,3 +39,8 @@ div.desc {
 .column {
     flex: 50%;
 }
+
+.iframe {
+	flex: 50%;
+	flex-flow: row wrap;
+}
