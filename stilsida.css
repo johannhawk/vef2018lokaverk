@@ -1,0 +1,11 @@
+body {
+    max-width: 75em;
+    margin: 0 28em;
+    background-color: powderblue;
+    
+}
+
+.main {
+    text-align: center;
+    font-family: "Georgia", serif
+}
