@@ -1,0 +1,74 @@
+<head>
+	<title>Gallery</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/gall.css">
+	<style type="text/css">
+		.main {
+    text-align: center;
+}
+/*---*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    width: 24%;*/
+    float: left;
+    width: 180px;
+    height: 200px;
+}
+
+div.gallery:hover {
+    border: 1px dashed #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+/*-----*/
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.iframe {
+	flex: 50%;
+	flex-flow: row wrap;
+}
+		
+	</style>
+</head>
+	<body>
+		
+		<br>
+		<center><a href="/index">Til heimasidu</a></center>
+		<hr>
+		<div class="row">
+		  <div style="background-color:red;" class="column">
+		  	<center><iframe width="560" height="315" src="https://www.youtube.com/embed/SVf7NBncUy0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+		  </div>
+
+		  	<div style="background-color:#FAD7A0;" class="column"><!--soundcloud-->
+		  		<iframe width="100%" height="315" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/315447086&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+		  		
+
+			</div>
+
+		
+
+		</div>
+		
+	</body>
+</html>
