@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Gallery</title>
-	<link rel="stylesheet" type="text/css" href="/static/css/gall.css">
+	<!--<link rel="stylesheet" type="text/css" href="/static/css/gall.css">-->
 	<style type="text/css">
 	.main {
     text-align: center;
@@ -59,72 +59,61 @@ div.desc {
 		  <div style="background-color:#FAD7A0;" class="column">
 
 		<div class="gallery">
-		  <a target="_blank" href="/static/blini_cat.jpg">
-		    <img src="/static/blini_cat.jpg" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='vikingar.jpg')}}">
+		    <img src="{{url_for('static', filename='vikingar.jpg')}}" alt="test" width="300" height="200">
 		  </a>
-		  <div class="desc">test</div>
-		</div>
-		<div class="gallery">
-		  <a target="_blank" href="/static/blini_cat.jpg">
-		    <img src="/static/blini_cat.jpg" alt="test" width="300" height="200">
-		  </a>
-		  <div class="desc">Add a description of the image here</div>
-		</div>
-		
-		<div class="gallery">
-		  <a target="_blank" href="/static/blini_cat.jpg">
-		    <img src="/static/blini_cat.jpg" alt="test" width="300" height="200">
-		  </a>
-		  <div class="desc">Add a description of the image here</div>
+		  <div class="desc">Vikingar</div>
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="/static/blini_cat.jpg">
-		    <img src="/static/blini_cat.jpg" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='vedur.jpg')}}">
+		    <img src="{{url_for('static', filename='vedur.jpg')}}" alt="test" width="300" height="200">
 		  </a>
-		  <div class="desc">Add a description of the image here</div>
-		</div>
-
-
-		<div class="gallery">
-		  <a target="_blank" href="/static/blini_cat.jpg">
-		    <img src="/static/blini_cat.jpg" alt="test" width="300" height="200">
-		  </a>
-		  <div class="desc">Add a description of the image here</div>
-		</div>
-
-
-		<div class="gallery">
-		  <a target="_blank" href="/static/blini_cat.jpg">
-		    <img src="/static/blini_cat.jpg" alt="test" width="300" height="200">
-		  </a>
-		  <div class="desc">Add a description of the image here</div>
-		</div>
-		<div class="gallery">
-		  <a target="_blank" href="/static/blini_cat.jpg">
-		    <img src="/static/blini_cat.jpg" alt="test" width="300" height="200">
-		  </a>
-		  <div class="desc">Add a description of the image here</div>
-		</div>
-		<div class="gallery">
-		  <a target="_blank" href="/static/blini_cat.jpg">
-		    <img src="/static/blini_cat.jpg" alt="test" width="300" height="200">
-		  </a>
-		  <div class="desc">Add a description of the image here</div>
+		  <div class="desc">Vedur</div>
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="/static/blini_cat.jpg">
-		    <img src="/static/blini_cat.jpg" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='landslag.jpg')}}">
+		    <img src="{{url_for('static', filename='landslag.jpg')}}" alt="test" width="300" height="200">
 		  </a>
-		  <div class="desc">Add a description of the image here</div>
+		  <div class="desc">Landslag</div>
 		</div>
+
 		<div class="gallery">
-		  <a target="_blank" href="/static/blini_cat.jpg">
-		    <img src="/static/blini_cat.jpg" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='thailand.jpg')}}">
+		    <img src="{{url_for('static', filename='thailand.jpg')}}" alt="test" width="300" height="200">
 		  </a>
-		  <div class="desc">Add a description of the image here</div>
-		</div></div>
+		  <div class="desc">Thailand</div>
+		</div>
+
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='thorp.jpg')}}">
+		    <img src="{{url_for('static', filename='thorp.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Thorp</div>
+		</div>
+
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='blatt.jpg')}}">
+		    <img src="{{url_for('static', filename='blatt.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Blaa Lonid</div>
+		</div>
+
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='flugvoll.jpg')}}">
+		    <img src="{{url_for('static', filename='flugvoll.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Flugvoll</div>
+		</div>
+
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='hellir.jpg')}}">
+		    <img src="{{url_for('static', filename='hellir.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Hellir</div>
+		</div>
+		</div>
 
 		  	<div style="background-color:powderblue;" class="column">
 		  		<iframe width="49.5%" height="315" src="https://www.youtube.com/embed/AmR5LoyZ4jw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -145,6 +134,6 @@ div.desc {
 		<hr>
 		<center>Hér er hægt að komast til næsta safnið.</center>
 		<br>
-		<center><a href="/gallery2">Gallery 2 Placeholder</a></center>
+		<center><a href="/gallery2">Gallery 2</a></center>
 	</body>
 </html>

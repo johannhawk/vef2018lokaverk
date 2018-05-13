@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Gallery</title>
-	<link rel="stylesheet" type="text/css" href="/static/css/gall.css">
+	<!--<link rel="stylesheet" type="text/css" href="/static/css/gall.css">-->
 	<style type="text/css">.main {
     text-align: center;
 }
@@ -59,68 +59,104 @@ div.desc {
 		
 		
 		<div class="gallery">
-		  <a target="_blank" href="/static/hnodri_crescent.jpg">
-		    <img src="/static/hnodri_crescent.jpg" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='hnodri_crescent.jpg')}}">
+		    <img src="{{url_for('static', filename='hnodri_crescent.jpg')}}" alt="test" width="300" height="200">
 		  </a>
 		  <div class="desc">Hnodri crescent</div>
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="/static/hnodri_fluff.jpg">
-		    <img src="/static/hnodri_fluff.jpg" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='hnodri_fluff.jpg')}}">
+		    <img src="{{url_for('static', filename='hnodri_fluff.jpg')}}" alt="test" width="300" height="200">
 		  </a>
 		  <div class="desc">Hnodri fluff</div>
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="/static/hnodri_rigning.jpg">
-		    <img src="/static/hnodri_rigning.jpg" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='hnodri_rigning.jpg')}}">
+		    <img src="{{url_for('static', filename='hnodri_rigning.jpg')}}" alt="test" width="300" height="200">
 		  </a>
 		  <div class="desc">Hnodri Rigning</div>
 		</div>
 		
 
 		<div class="gallery">
-		  <a target="_blank" href="/static/hnodri_window.jpg">
-		    <img src="/static/hnodri_window.jpg" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='hnodri_window.jpg')}}">
+		    <img src="{{url_for('static', filename='hnodri_window.jpg')}}" alt="test" width="300" height="200">
 		  </a>
 		  <div class="desc">Hnodri window</div>
 		</div>
 		<div class="gallery">
-		  <a target="_blank" href="/static/kuzye_wrap.jpg">
-		    <img src="/static/kuzye_wrap.jpg" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='kuzye_wrap.jpg')}}">
+		    <img src="{{url_for('static', filename='kuzye_wrap.jpg')}}" alt="test" width="300" height="200">
 		  </a>
 		  <div class="desc">Kuzye wrap</div>
 		</div>
 		<div class="gallery">
-		  <a target="_blank" href="/static/kuzye_sit.jpg">
-		    <img src="/static/kuzye_sit.jpg" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='kuzye_sit.jpg')}}">
+		    <img src="{{url_for('static', filename='kuzye_sit.jpg')}}" alt="test" width="300" height="200">
 		  </a>
-		  <div class="desc">Kuzye Sit</div>
+		  <div class="desc">Kuzye Sitjandi</div>
 		</div>
 		<div class="gallery">
-		  <a target="_blank" href="/static/landspitali.jpg">
-		    <img src="/static/landspitali.png" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='landspitali.jpg')}}">
+		    <img src="{{url_for('static', filename='landspitali.jpg')}}" alt="test" width="300" height="200">
 		  </a>
 		  <div class="desc">landspitali</div>
 		</div>
 		<div class="gallery">
-		  <a target="_blank" href="/static/blini_cat.jpg">
-		    <img src="/static/blini_cat.jpg" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='blini_cat.jpg')}}">
+		    <img src="{{url_for('static', filename='blini_cat.jpg')}}" alt="test" width="300" height="200">
 		  </a>
 		  <div class="desc">Blini cat</div>
 		</div>
 		<div class="gallery">
-		  <a target="_blank" href="/static/hnodri_sleep.jpg">
-		    <img src="/static/hnodri_sleep.jpg" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='hnodri_sleep.jpg')}}">
+		    <img src="{{url_for('static', filename='hnodri_sleep.jpg')}}" alt="test" width="300" height="200">
 		  </a>
 		  <div class="desc">Hnodri sleep</div>
 		</div>
 		<div class="gallery">
-		  <a target="_blank" href="/static/kuzye.jpg">
-		    <img src="/static/kuzye1" alt="test" width="300" height="200">
+		  <a target="_blank" href="{{url_for('static', filename='blini_cat_k.jpg')}}">
+		    <img src="{{url_for('static', filename='blini_cat_k.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Blini med knif</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='memecats.png')}}">
+		    <img src="{{url_for('static', filename='memecats.png')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Memecats</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='cats_have_been_fed.png')}}">
+		    <img src="{{url_for('static', filename='cats_have_been_fed.png')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">The cats have been fed</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='kuzye1.jpg')}}">
+		    <img src="{{url_for('static', filename='kuzye1.jpg')}}" alt="test" width="300" height="200">
 		  </a>
 		  <div class="desc">kuzye</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='kuzye_oval.jpg')}}">
+		    <img src="{{url_for('static', filename='kuzye_oval.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">kuzye kringlott</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='kuzye_belly.jpg')}}">
+		    <img src="{{url_for('static', filename='kuzye_belly.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">kuzye liggjandi</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='hnodri1.jpg')}}">
+		    <img src="{{url_for('static', filename='hnodri1.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Hnodri vatn</div>
 		</div>
 
 	</div>
