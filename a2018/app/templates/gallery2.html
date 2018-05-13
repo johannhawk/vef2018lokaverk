@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+	<!--<link rel="stylesheet" type="text/css" href="/static/css/gall.css">-->
+	<style type="text/css">.main {
+    text-align: center;
+}
+
+/*---*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    width: 24%;*/
+    float: left;
+    width: 180px;
+    height: 200px;
+}
+
+div.gallery:hover {
+    border: 1px dashed #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+/*-----*/
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.iframe {
+	flex: 50%;
+	flex-flow: row wrap;
+}</style>
+</head>
+	<body>
+		
+		<br>
+		<center><a href="/index">Til heimasidu</a></center>
+		<hr>
+		<div class="row">
+		  <div style="background-color:red;" class="column">
+		
+		
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='hnodri_crescent.jpg')}}">
+		    <img src="{{url_for('static', filename='hnodri_crescent.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Hnodri crescent</div>
+		</div>
+
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='hnodri_fluff.jpg')}}">
+		    <img src="{{url_for('static', filename='hnodri_fluff.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Hnodri fluff</div>
+		</div>
+
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='hnodri_rigning.jpg')}}">
+		    <img src="{{url_for('static', filename='hnodri_rigning.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Hnodri Rigning</div>
+		</div>
+		
+
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='hnodri_window.jpg')}}">
+		    <img src="{{url_for('static', filename='hnodri_window.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Hnodri window</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='kuzye_wrap.jpg')}}">
+		    <img src="{{url_for('static', filename='kuzye_wrap.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Kuzye wrap</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='kuzye_sit.jpg')}}">
+		    <img src="{{url_for('static', filename='kuzye_sit.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Kuzye Sitjandi</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='landspitali.jpg')}}">
+		    <img src="{{url_for('static', filename='landspitali.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">landspitali</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='blini_cat.jpg')}}">
+		    <img src="{{url_for('static', filename='blini_cat.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Blini cat</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='hnodri_sleep.jpg')}}">
+		    <img src="{{url_for('static', filename='hnodri_sleep.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Hnodri sleep</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='blini_cat_k.jpg')}}">
+		    <img src="{{url_for('static', filename='blini_cat_k.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Blini med knif</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='memecats.png')}}">
+		    <img src="{{url_for('static', filename='memecats.png')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Memecats</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='cats_have_been_fed.png')}}">
+		    <img src="{{url_for('static', filename='cats_have_been_fed.png')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">The cats have been fed</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='kuzye1.jpg')}}">
+		    <img src="{{url_for('static', filename='kuzye1.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">kuzye</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='kuzye_oval.jpg')}}">
+		    <img src="{{url_for('static', filename='kuzye_oval.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">kuzye kringlott</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='kuzye_belly.jpg')}}">
+		    <img src="{{url_for('static', filename='kuzye_belly.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">kuzye liggjandi</div>
+		</div>
+		<div class="gallery">
+		  <a target="_blank" href="{{url_for('static', filename='hnodri1.jpg')}}">
+		    <img src="{{url_for('static', filename='hnodri1.jpg')}}" alt="test" width="300" height="200">
+		  </a>
+		  <div class="desc">Hnodri vatn</div>
+		</div>
+
+	</div>
+
+		  	<div style="background-color:#1B4F72;" class="column">
+		  		<iframe width="49.5%" height="315" src="https://www.youtube.com/embed/dyv-gar3Mu4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		  		<iframe width="49.5%" height="315" src="https://www.youtube.com/embed/MVZDFYbIHiQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		  		<iframe width="49.5%" height="315" src="https://www.youtube.com/embed/J11uu8L8FTY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		  		<iframe width="49.5%" height="315" src="https://www.youtube.com/embed/iw5iuVzUgwU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		  		<iframe width="49.5%" height="315" src="https://www.youtube.com/embed/OAGfx7eB3gA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		  		<iframe width="49.5%" height="315" src="https://www.youtube.com/embed/XM8aBESf8EI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+
+			</div>
+
+		</div>
+		<hr>
+		<center>Hér er hægt ad komast til fyrsta safnid.</center>
+		<br>
+		<center><a href="/gallery1">Gallery 1</a></center>
+	</body>
+</html>

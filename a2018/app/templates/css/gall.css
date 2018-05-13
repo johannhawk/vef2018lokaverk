@@ -1,0 +1,50 @@
+.main {
+    text-align: center;
+}
+
+
+
+
+
+
+/*---*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    width: 24%;*/
+    float: left;
+    width: 180px;
+    height: 200px;
+}
+
+div.gallery:hover {
+    border: 1px dashed #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+/*-----*/
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.iframe {
+	flex: 50%;
+	flex-flow: row wrap;
+}
